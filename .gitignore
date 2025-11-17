@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.env
+
+# Node
+node_modules/
+
+# IDEs and editors
+.vscode/
+
+# Logs
+logs/
+
+# Secrets and keys
+*.pem
+*.key
+*.crt
