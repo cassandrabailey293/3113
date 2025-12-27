@@ -44,7 +44,7 @@ export default function App() {
               className="rounded-full bg-white/10 border-white/20 hover:bg-red-600 hover:border-red-600 transition-all"
               asChild
             >
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://instagram.com/3113rocks" target="_blank" rel="noopener noreferrer">
                 <Instagram className="w-5 h-5 text-white" />
               </a>
             </Button>
@@ -74,7 +74,7 @@ export default function App() {
               className="rounded-full bg-white/10 border-white/20 hover:bg-red-600 hover:border-red-600 transition-all"
               asChild
             >
-              <a href="mailto:booking@3113band.com">
+              <a href="mailto:booking.3113@gmail.com">
                 <Mail className="w-5 h-5 text-white" />
               </a>
             </Button>
@@ -89,9 +89,9 @@ export default function App() {
             <TabsTrigger value="about" className="data-[state=active]:bg-red-600">
               About
             </TabsTrigger>
-            <TabsTrigger value="media" className="data-[state=active]:bg-red-600">
+            {/* <TabsTrigger value="media" className="data-[state=active]:bg-red-600">
               Media
-            </TabsTrigger>
+            </TabsTrigger> */}
             <TabsTrigger value="contact" className="data-[state=active]:bg-red-600">
               Contact
             </TabsTrigger>
@@ -101,9 +101,9 @@ export default function App() {
             <AboutSection />
           </TabsContent>
 
-          <TabsContent value="media">
+          {/* <TabsContent value="media">
             <MediaSection />
-          </TabsContent>
+          </TabsContent> */}
 
           <TabsContent value="contact">
             <ContactSection />
@@ -119,18 +119,18 @@ export default function App() {
               © 2025 3113. All rights reserved.
             </p>
             <div className="flex gap-6">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-500 transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=61572396299697" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-500 transition-colors">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-500 transition-colors">
+              <a href="hhttps://instagram.com/3113rocks" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-500 transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
               {/* <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-500 transition-colors">
                 <Youtube className="w-5 h-5" />
               </a> */}
-              <a href="https://spotify.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-500 transition-colors">
+              {/* <a href="https://spotify.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-500 transition-colors">
                 <Music className="w-5 h-5" />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

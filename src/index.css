@@ -54,7 +54,7 @@
     --color-gray-400: oklch(.707 .022 261.325);
     --color-zinc-700: oklch(.37 .013 285.805);
     --color-zinc-800: oklch(.274 .006 286.033);
-    --color-zinc-900: oklch(.21 .006 285.885);
+    --color-zinc-900: oklch(82.739% 0.0181 285.929);
     --color-black: #000;
     --color-white: #fff;
     --spacing: .25rem;
@@ -925,7 +925,7 @@
   }
 
   .bg-zinc-900\/50 {
-    background-color: color-mix(in srgb, oklch(.21 .006 285.885) 50%, transparent);
+    background-color: color-mix(in srgb, oklch(67.512% 0.04999 284.971) 50%, transparent);
   }
 
   @supports (color: color-mix(in lab, red, red)) {

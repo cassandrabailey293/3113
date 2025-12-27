@@ -67,7 +67,7 @@ export function ContactSection() {
               <div>
                 <p className="text-white">Phone</p>
                 <a href="tel:+15551234567" className="text-gray-400 hover:text-red-500 transition-colors">
-                  (555) 123-4567
+                  (703) 244-8122
                 </a>
               </div>
             </div>
@@ -78,8 +78,8 @@ export function ContactSection() {
               <MapPin className="w-5 h-5 text-red-500 mt-1" />
               <div>
                 <p className="text-white">Based In</p>
-                <p className="text-gray-400">Los Angeles, CA</p>
-                <p className="text-gray-400 text-sm">Available for regional and national bookings</p>
+                <p className="text-gray-400">Summit County, CO</p>
+                <p className="text-gray-400 text-sm">Available for regional and national bookings, Denver and beyond</p>
               </div>
             </div>
           </Card>

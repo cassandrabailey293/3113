@@ -1,4 +1,4 @@
-import { ImageWithFallback } from "./figma/ImageWithFallback";
+import { ImageWithFallback } from "./ui/ImageWithFallback";
 import { Music2, Guitar, Mic2 } from "lucide-react";
 
 export function AboutSection() {
@@ -15,14 +15,10 @@ export function AboutSection() {
         <div className="space-y-4">
           <h2 className="text-white">About 3113</h2>
           <p className="text-gray-300">
-            Born from a passion for rock and alternative music, 3113 brings a fresh energy to your favorite classics. 
-            We're not just a cover band—we're a tribute to the sounds that shaped generations, delivered with raw power 
-            and authentic soul.
+            Why is our name 3113 (read: "thirty-one thirteen"), you ask? Maybe you'll just have to <a href="mailto:booking.3113@gmail.com">contact us</a> and find out.
           </p>
           <p className="text-gray-300">
-            From 90s grunge anthems to modern alternative hits, our setlist spans decades of rock evolution. 
-            Whether you're hosting a festival, planning a private event, or booking talent for your venue, 
-            3113 delivers an unforgettable live experience that gets crowds moving.
+            Hailing from Summit County, Colorado, 3113 is more than a cover band. We bring rock music to life from and for all walks of life. 
           </p>
         </div>
       </div>
