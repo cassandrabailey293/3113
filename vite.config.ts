@@ -5,6 +5,11 @@
 
   export default defineConfig({
     plugins: [react()],
+    base: `/3113/`,
+    build: {
+    outDir: './docs', // The output directory path
+    emptyOutDir: true, // Optional: Clear the directory before build
+    },
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
