@@ -1,5 +1,6 @@
 import { ImageWithFallback } from "./ui/ImageWithFallback";
 import { Music2, Guitar, Mic2 } from "lucide-react";
+const mainbandpic = "../../img/mainbandpic.jpg";
 
 export function AboutSection() {
   return (
@@ -7,7 +8,7 @@ export function AboutSection() {
       <div className="grid md:grid-cols-2 gap-8 items-center">
         <div>
           <ImageWithFallback
-            src="../../img/mainbandpic.jpg"
+            src={mainbandpic}
             alt="3113 Band"
             className="w-full h-[400px] object-cover rounded-lg shadow-2xl"
           />
@@ -15,10 +16,10 @@ export function AboutSection() {
         <div className="space-y-4">
           <h2 className="text-white">About 3113</h2>
           <p className="text-gray-300">
-            Why is our name 3113 (read: "thirty-one thirteen"), you ask? Maybe you'll just have to <a href="mailto:booking.3113@gmail.com">contact us</a> and find out.
+            Why is our name 3113 (read: "thirty-one thirteen"), you ask? Maybe you'll just have to <a href="mailto:booking.3113@gmail.com">ask us</a> and find out.
           </p>
           <p className="text-gray-300">
-            Hailing from Summit County, Colorado, 3113 is more than a cover band. We bring rock music to life from and for all walks of life. 
+            Hailing from Summit County, Colorado, 3113 is more than a cover band. We bring rock music to life with high-energy sets for fans of all ages and creeds. Book us now!
           </p>
         </div>
       </div>
