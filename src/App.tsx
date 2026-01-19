@@ -5,6 +5,9 @@ import { ContactSection } from "./components/ContactSection";
 import { Button } from "./components/ui/button";
 import { Facebook, Instagram, Youtube, Music, Mail } from "lucide-react";
 import { Toaster } from "./components/ui/sonner";
+import { ImageWithFallback } from "./components/ui/ImageWithFallback";
+import logo from "../img/3113logo.jpg";
+
 
 export default function App() {
   return (
@@ -23,7 +26,13 @@ export default function App() {
         </div>
         
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-4">
-          <h1 className="text-white text-6xl md:text-8xl mb-4 tracking-wider">3113</h1>
+          <div>
+            <ImageWithFallback
+              src={logo}
+              alt="3113 Band"
+              className="w-full h-[400px] object-cover rounded-lg shadow-2xl"
+            />
+          </div>
           <p className="text-gray-300 text-xl md:text-2xl mb-8">Rock & Alternative Cover Band</p>
           
           {/* Social Media Links */}
@@ -85,14 +94,14 @@ export default function App() {
       {/* Main Content */}
       <div className="max-w-6xl mx-auto px-4 py-12">
         <Tabs defaultValue="about" className="w-full">
-          <TabsList className="grid w-full grid-cols-3 bg-zinc-900 border border-zinc-800 mb-8">
-            <TabsTrigger value="about" className="data-[state=active]:bg-red-600">
+          <TabsList className="grid w-full grid-cols-3 bg-zinc-700 border border-zinc-800 mb-8">
+            <TabsTrigger value="about" className="data-[state=active]:bg-red-600 text-white">
               About
             </TabsTrigger>
             {/* <TabsTrigger value="media" className="data-[state=active]:bg-red-600">
               Media
             </TabsTrigger> */}
-            <TabsTrigger value="contact" className="data-[state=active]:bg-red-600">
+            <TabsTrigger value="contact" className="data-[state=active]:bg-red-600 text-white">
               Contact
             </TabsTrigger>
           </TabsList>

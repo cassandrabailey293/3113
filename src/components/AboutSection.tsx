@@ -16,7 +16,7 @@ export function AboutSection() {
         <div className="space-y-4">
           <h2 className="text-white">About 3113</h2>
           <p className="text-gray-300">
-            Why is our name 3113 (read: "thirty-one thirteen"), you ask? Maybe you'll just have to <a href="mailto:booking.3113@gmail.com">ask us</a> and find out.
+            Why is our name 3113 (read: "thirty-one thirteen"), you ask? Maybe you'll just have to <a href="mailto:booking.3113@gmail.com">say hi</a> and find out.
           </p>
           <p className="text-gray-300">
             Hailing from Summit County, Colorado, 3113 is more than a cover band. We bring rock music to life with high-energy sets for fans of all ages and creeds. Book us now!
