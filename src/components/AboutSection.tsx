@@ -1,6 +1,6 @@
 import { ImageWithFallback } from "./ui/ImageWithFallback";
 import { Music2, Guitar, Mic2 } from "lucide-react";
-const mainbandpic = "../../img/mainbandpic.jpg";
+import mainbandpic from "../../img/mainbandpic.jpg";
 
 export function AboutSection() {
   return (
